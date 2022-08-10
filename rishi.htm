@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter </title>
+    <style>
+        body{
+            background-color: aliceblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40px;
+
+            
+        }
+        main{
+            display: flex;
+            position: absolute;
+            top: 22%;
+            left: 42%;
+
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+        }
+        .heading{
+            margin: 10px;
+        }
+        .btn{
+            background-color: aliceblue;
+            border: 2px solid black;
+            padding: 6px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover{
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h2 class="heading">Counter</h2>
+        <h1 class="heading"><span>0</span></h1>
+
+        <div> <button class="btn" id="decrease">Decrease</button>
+        <button class="btn" id="Reset">Reset</button>
+        <button class="btn" id="increase">Increase</button>
+    </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
+
